@@ -1,0 +1,4 @@
+This script is used for creating backups of folder
+for getting this backups everyday at 1AM,create a cronjob
+$crontab -e
+  0 1 * * * . /home/ubuntu/shell-scripts/backup.sh
